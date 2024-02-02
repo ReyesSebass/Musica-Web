@@ -6,8 +6,9 @@ body{
 /*Menu de arriba*/
 .header-up {
     background: #403A36;
-    padding: 10px;
+    padding: 20px 0;
     border: 1px solid black;
+    text-align: center;
     height: 12%;
     position: fixed;
     top: 0;
@@ -16,16 +17,10 @@ body{
 }
 
 .logo{
-    color: #8C2D18;
-    text-decoration: none;
-    position: absolute;
-    top: -15px;
-    left: 360px;
-    font-family: cursive;
-    font-size: 32px;
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 110px;
+    color: #8C2D18; /* Cambia el color del texto a blanco */
+    display: inline-block; /* Permite alinear horizontalmente el logo */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+    font-size: 50px; /* Tamaño de fuente del logo */
 }
 
 a.logo:hover{
@@ -73,7 +68,7 @@ a.logo:hover{
 }
 
 .nav-menu-link{
-    
+
     padding: 8px 12px;
     border-radius: 4px;
 
