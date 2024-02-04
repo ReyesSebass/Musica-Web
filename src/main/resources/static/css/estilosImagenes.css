@@ -1,0 +1,17 @@
+.div1 {
+    display: grid; /* Utiliza un sistema de cuadrícula para organizar los elementos */
+    grid-template-columns: repeat(2, 1fr); /* Define dos columnas con el mismo ancho */
+    grid-gap: 10px; /* Espacio entre las celdas de la cuadrícula */
+    padding: 5% 5%;
+}
+
+.div1 img {
+    display: inline;
+    margin-right: 20px;
+    max-width: 95%; /* Ajusta el ancho máximo de las imágenes al 100% del tamaño del contenedor */
+    max-height: 95%; /* Ajusta la altura máxima de las imágenes al 100% del tamaño del contenedor */
+    width: 80%; /* Ajusta automáticamente el ancho de las imágenes para mantener la proporción de aspecto */
+    height: 80%; /* Ajusta automáticamente la altura de las imágenes para mantener la proporción de aspecto */
+}
+
+

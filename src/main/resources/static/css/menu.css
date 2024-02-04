@@ -5,16 +5,18 @@ body{
 
 /*Menu de arriba*/
 .header-up {
+    display:block;
     background: #403A36;
     padding: 20px 0;
     border: 1px solid black;
     text-align: center;
-    height: 12%;
+    height: 8%;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
+
 
 .logo{
     color: #8C2D18; /* Cambia el color del texto a blanco */
@@ -36,7 +38,7 @@ a.logo:hover{
     border: 1px solid black;
     height: 4%;
     position: fixed;
-    top: 12%;
+    top: 8%;
     left: 0;
     width: 100%;
 }
@@ -44,8 +46,9 @@ a.logo:hover{
 .nav {
     display: flex;
     justify-content: space-between;
-    max-width: 650px;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
+    padding: auto;
 }
 
 .nav-link{
@@ -55,14 +58,15 @@ a.logo:hover{
 
 .nav-menu {
     display: flex;
-    margin-right: 40px;
+    padding: auto;
+    margin: 15px 410px;
     list-style: none;
-
+    
 }
 
 .nav-menu-item{
     font-size: 20px;
-    margin: 0 20px;
+    margin: auto;
     line-height: 0px;
     width: max-content;
 }

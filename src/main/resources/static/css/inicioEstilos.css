@@ -1,12 +1,12 @@
-.inicio-div1 {
-    margin-top: 9%;
+.div1 {
+/*    margin-top: 9%;*/
     text-align: center;
     position: fixed;
     padding: 20px 0;
     background: #8C2D18;
     border: 1px solid black;
     height: 84%;
-    top: 0;
+    top: 17%;
     left: 0;
     width: 100%;
     overflow-y: auto;  /*esta linea se usa para agregar na barra lateral*/
