@@ -1,0 +1,45 @@
+.div-musica{
+    position: fixed;
+    padding: 25% auto;
+    background: #8C2D18;
+    border: 1px solid black;
+    height: 84%;
+    top: 17%;
+    left: 0;
+    width: 100%;
+    overflow-y: auto;  /*esta linea se usa para agregar na barra lateral*/
+}
+
+.box-genero{
+    font-size: 20px;
+    margin: auto;
+    line-height: 0px;
+    width: max-content;
+}
+
+.items ul{
+    display: flex;
+    padding: auto;
+    margin: 15px 410px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.items a{
+    color: #D9501E;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.item-genero:hover {
+    color: #401D09;
+    transition: 0.7s;
+}
+
+.abajo-arriba {
+    color: #D9501E;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
