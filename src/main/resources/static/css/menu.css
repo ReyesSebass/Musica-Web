@@ -1,22 +1,21 @@
 body{
     font-family: sans-serif;
-    padding: 90px 20px 0;
+    padding: 90px 20px 6px;
 }
 
 /*Menu de arriba*/
 .header-up {
-    display:block;
-    background: #403A36;
-    padding: 20px 0;
-    border: 1px solid black;
-    text-align: center;
-    height: 8%;
+    background-color: #403A36;
+    height: 12%;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 30px auto 50px;
+    padding-top: 20px;
 }
-
 
 .logo{
     color: #8C2D18; 
@@ -33,39 +32,34 @@ a.logo:hover{
 
 /*Menu de abajo*/
 .header-down {
-    display: block;
-    background: #401D09;
-    padding: 13px;
-    border: 1px solid black;
-    text-align: center;
+    background-color: #401D09;
     height: 4%;
     position: fixed;
-    top: 8%;
+    top: 11%;
     left: 0;
     width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 13px;
+    border: 1px solid black;
 }
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    width: auto;
-    margin: auto;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    width: 100%;
+    margin: 0 auto;
     padding: auto;
-}
-
-.nav-link{
-    color: #D9501E;
-    text-decoration: none;
 }
 
 .nav-menu {
     display: flex;
     padding: auto;
-    margin: 15px 410px;
+    margin: 15px auto; /* Centra verticalmente y ajusta el espacio horizontal automáticamente */
     list-style: none;
 }
 
-.nav-menu-item{
+.nav-menu-item {
     font-size: 20px;
     margin: auto;
     line-height: 0px;
@@ -73,10 +67,15 @@ a.logo:hover{
 }
 
 .nav-menu-link{
-
+    color: #8C2D18;
     padding: 8px 12px;
     border-radius: 4px;
+    text-decoration: none;
+}
 
+.nav-menu-link:hover {
+    color: #403A36;
+    transition: 0.7s;
 }
 
 .nav-menu-link:hover {

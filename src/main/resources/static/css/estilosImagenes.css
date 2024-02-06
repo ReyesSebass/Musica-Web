@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2, 1fr); /* Define dos columnas con el mismo ancho */
     grid-gap: 10px; /* Espacio entre las celdas de la cuadrícula */
     padding: 5% 5%;
+    overflow-y: auto;
 }
 
 .div1 img {
@@ -13,5 +14,3 @@
     width: 80%; /* Ajusta automáticamente el ancho de las imágenes para mantener la proporción de aspecto */
     height: 80%; /* Ajusta automáticamente la altura de las imágenes para mantener la proporción de aspecto */
 }
-
-

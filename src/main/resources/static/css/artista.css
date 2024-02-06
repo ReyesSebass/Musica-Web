@@ -1,0 +1,33 @@
+.div2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.artista {
+    background-color: #401D09;
+    width: calc(33.33% - 20px); /* Ancho del div con margen */
+    margin-right: 20px; 
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+}
+
+.artista:last-child {
+    margin-right: 0; 
+}
+
+.artista img {
+    border: 1px solid black;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    align-self: center; /* Centra la imagen verticalmente */
+}
+
+.artista p {
+    margin: 10px; 
+}
+
